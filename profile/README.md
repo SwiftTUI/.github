@@ -25,7 +25,8 @@
   | **Use SwiftTUI** in your Swift package | [`SwiftTUI/swift-tui`](https://github.com/SwiftTUI/swift-tui) — the SwiftPM framework |
   | **Embed terminal output** in a browser or Node app | [`SwiftTUI/swift-tui-web`](https://github.com/SwiftTUI/swift-tui-web) |
   | **Read code that runs** — full apps, snapshot tests, the gallery | [`SwiftTUI/swift-tui-examples`](https://github.com/SwiftTUI/swift-tui-examples) |
-  | **Browse docs, demos, and the DocC reference** | https://SwiftTUI.sh |
+  | **Project Website, demos, documentation** | https://SwiftTUI.sh |
+  | **DocC** | https://swifttui.sh/docs/documentation/ |
 
   ## Why SwiftTUI
 
