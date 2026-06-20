@@ -3,8 +3,8 @@
   **SwiftUI semantics, drawn in terminal cells.**
 
   ![Swift 6.3](https://img.shields.io/badge/Swift-6.3-F05138?logo=swift&logoColor=white)
-  ![Platforms](https://img.shields.io/badge/platforms-macOS%20%C2%B7%20Linux%20%C2%B7%20iOS%20%C2%B7%20WASI-1E90FF)
-  ![Status](https://img.shields.io/badge/status-0.0.4%20alpha-DAA520)
+  ![Platforms](https://img.shields.io/badge/platforms-macOS%20·%20Linux%20·%20iOS%20·%20WASI%20·%20Android-1E90FF)
+  ![Status](https://img.shields.io/badge/prerelease-0.0.24-D06)
   ![License](https://img.shields.io/badge/license-MIT-3DA639)
 
   SwiftTUI is a SwiftUI-shaped UI framework — `View`, `Scene`, `App`, `@State`,
@@ -13,21 +13,22 @@
   SwiftUI surface. **One authored `App`. Four execution modes. The same view
   tree every time.**
 
-  No `curses`. No virtual DOM. No global constraint solver. Every frame is
-  lowered through a strict, inspectable pipeline — resolve → measure → place →
-  semantics → draw → raster → commit — so layout is deterministic and every
+  No `curses`. No virtual DOM. No global constraint solver.  
+  Every frame is lowered through a strict, inspectable pipeline — `resolve → measure → place →
+  semantics → draw → raster → commit` — so layout is deterministic and every
   frame is snapshot-testable.
 
   ## Pick your entry point
 
-  | If you want to… | Go to |
+  | If you want | Visit |
   | --- | --- |
+  | **Project Website, demos, documentation** | https://SwiftTUI.sh |
+  | **DocC** | https://swifttui.sh/docs/documentation/ |
   | **Use SwiftTUI** in your Swift package | [`SwiftTUI/swift-tui`](https://github.com/SwiftTUI/swift-tui) — the SwiftPM framework |
   | **Embed terminal output** in a browser or Node app | [`SwiftTUI/swift-tui-web`](https://github.com/SwiftTUI/swift-tui-web) |
   | **Embed a SwiftTUI app in a native SwiftUI view** (macOS · iOS) | [`SwiftTUI/swift-tui-swiftui`](https://github.com/SwiftTUI/swift-tui-swiftui) |
+  | **Embed a SwiftTUI app with Android Compose** | [`SwiftTUI/swift-tui-android`](https://github.com/SwiftTUI/swift-tui-android) |
   | **Read code that runs** — full apps, snapshot tests, the gallery | [`SwiftTUI/swift-tui-examples`](https://github.com/SwiftTUI/swift-tui-examples) |
-  | **Project Website, demos, documentation** | https://SwiftTUI.sh |
-  | **DocC** | https://swifttui.sh/docs/documentation/ |
 
   ## Why SwiftTUI
 
