@@ -20,28 +20,25 @@
 
   ## Pick your entry point
 
-  | If you want | Visit |
+  |  |  |
   | --- | --- |
   | **Project Website, demos, documentation** | https://SwiftTUI.sh |
   | **DocC** | https://swifttui.sh/docs/documentation/ |
-  | **Use SwiftTUI** in your Swift package | [`SwiftTUI/swift-tui`](https://github.com/SwiftTUI/swift-tui) — the SwiftPM framework |
-  | **Embed terminal output** in a browser or Node app | [`SwiftTUI/swift-tui-web`](https://github.com/SwiftTUI/swift-tui-web) |
-  | **Embed a SwiftTUI app in a native SwiftUI view** (macOS · iOS) | [`SwiftTUI/swift-tui-swiftui`](https://github.com/SwiftTUI/swift-tui-swiftui) |
+  | **Build a Terminal app with SwiftTUI** | [`SwiftTUI/swift-tui`](https://github.com/SwiftTUI/swift-tui) |
+  | **Embed a SwiftTUI app in a website** | [`SwiftTUI/swift-tui-web`](https://github.com/SwiftTUI/swift-tui-web) |
+  | **Embed a SwiftTUI app as a native SwiftUI view** (macOS · iOS) | [`SwiftTUI/swift-tui-swiftui`](https://github.com/SwiftTUI/swift-tui-swiftui) |
   | **Embed a SwiftTUI app with Android Compose** | [`SwiftTUI/swift-tui-android`](https://github.com/SwiftTUI/swift-tui-android) |
-  | **Read code that runs** — full apps, snapshot tests, the gallery | [`SwiftTUI/swift-tui-examples`](https://github.com/SwiftTUI/swift-tui-examples) |
+  | **Examples** full apps for each platform + explored use cases | [`SwiftTUI/swift-tui-examples`](https://github.com/SwiftTUI/swift-tui-examples) |
 
   ## Why SwiftTUI
 
-  - **You already know the API.** Stacks, frames, `@State`, `@Environment`,
-    `ProgressView`, `LabeledContent`, gestures, view modifiers — they behave the way
-    SwiftUI taught you to expect.
+  - **An excellent UI API** Stacks, frames, `@State`, `@Binding`, `@Environment`, view modifiers, gestures, and animations — that behave the way they should.
   - **Deterministic, testable frames.** Rendering is a pure function of the view
     tree and a size proposal. Same input, same cells, every time.
   - **Accessible by construction.** A semantic substrate sits under every frame,
     driving a linear accessibility path, `--no-color` / `--ascii` fallbacks, and
     reduce-motion behavior.
-  - **Portable.** Terminal, browser, and embedded host are sibling products of
-    one package — not three rewrites.
+  - **Portable.** Beyond the terminal — Embed SwiftTUI apps using native drawing host libraries — not TTYs passing characters to a terminal emulator — for Web, Android, macOS and iOS.
   - **Batteries included.** The default `SwiftTUI` import wraps argument
     parsing, terminal launch, localhost WebHost launch, and animated GIF/image
     playback in one product.
