@@ -4,7 +4,7 @@
 
   ![Swift 6.3](https://img.shields.io/badge/Swift-6.3-F05138?logo=swift&logoColor=white)
   ![Platforms](https://img.shields.io/badge/platforms-macOS%20·%20Linux%20·%20iOS%20·%20WASI%20·%20Android-1E90FF)
-  ![Status](https://img.shields.io/badge/prerelease-0.0.24-D06)
+  ![Status](https://img.shields.io/badge/prerelease-0.0.25-D06)
   ![License](https://img.shields.io/badge/license-MIT-3DA639)
 
   SwiftTUI is a SwiftUI-shaped UI framework — `View`, `Scene`, `App`, `@State`,
@@ -18,9 +18,9 @@
   semantics → draw → raster → commit` — so layout is deterministic and every
   frame is snapshot-testable.
 
-  ## Pick your entry point
+  ## Project Index
 
-  |  |  |
+  | What | Where |
   | --- | --- |
   | **Project Website, demos, documentation** | https://SwiftTUI.sh |
   | **DocC** | https://swifttui.sh/docs/documentation/ |
