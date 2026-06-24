@@ -4,7 +4,7 @@
 
 ![Swift 6.3](https://img.shields.io/badge/Swift-6.3-F05138?logo=swift&logoColor=white)
 ![Platforms](https://img.shields.io/badge/platforms-macOS%20·%20Linux%20·%20iOS%20·%20WASI%20·%20Android-1E90FF)
-![Status](https://img.shields.io/badge/prerelease-0.0.27-D06)
+![Status](https://img.shields.io/badge/beta-0.1.0-D06)
 ![License](https://img.shields.io/badge/license-MIT-3DA639)
 
 SwiftTUI is a SwiftUI-shaped UI framework — `View`, `Scene`, `App`, `@State`,
