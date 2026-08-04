@@ -21,13 +21,15 @@ snapshot-testable.
 
 | What | Where |
 | --- | --- |
-| **Run the demo, read the docs** | https://SwiftTUI.sh |
-| **Read the DocC** | https://swifttui.sh/docs/documentation/ |
+| **Run the demo, read the docs** | <https://swifttui.sh> |
+| **Read the DocC** | <https://swifttui.sh/docs/documentation/> |
 | **Build a terminal app** | [`SwiftTUI/swift-tui`](https://github.com/SwiftTUI/swift-tui) |
+| **Add charts & dashboards** | [`SwiftTUI/swift-tui-charts`](https://github.com/SwiftTUI/swift-tui-charts) — [charts DocC](https://swifttui.sh/docs/charts/documentation/swifttuicharts/) |
 | **Embed in a website** | [`SwiftTUI/swift-tui-web`](https://github.com/SwiftTUI/swift-tui-web) |
 | **Embed as a native SwiftUI view** (macOS · iOS) | [`SwiftTUI/swift-tui-swiftui`](https://github.com/SwiftTUI/swift-tui-swiftui) |
 | **Embed in Android Compose** | [`SwiftTUI/swift-tui-android`](https://github.com/SwiftTUI/swift-tui-android) |
 | **Examples** — full apps per host + explored use cases | [`SwiftTUI/swift-tui-examples`](https://github.com/SwiftTUI/swift-tui-examples) |
+| **The website itself** — Astro + DocC build | [`SwiftTUI/swift-tui-site`](https://github.com/SwiftTUI/swift-tui-site) |
 
 ## Why SwiftTUI
 
