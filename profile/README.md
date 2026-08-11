@@ -5,7 +5,7 @@ Animations: SwiftUI semantics, drawn in terminal cells.**
 
 ![Swift 6.3](https://img.shields.io/badge/Swift-6.3-F05138?logo=swift&logoColor=white)
 ![Platforms](https://img.shields.io/badge/platforms-macOS%20·%20Linux%20·%20iOS%20·%20WASI%20·%20Android-1E90FF)
-![Status](https://img.shields.io/badge/pre--release-0.8.0-DAA520)
+![Status](https://img.shields.io/badge/pre--release-0.8.3-DAA520)
 
 Most TUI toolkits make you choose between a low-level draw loop and a widget
 set with its own ad-hoc state story. SwiftTUI instead borrows the declarative
