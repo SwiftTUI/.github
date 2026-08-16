@@ -26,7 +26,7 @@ Hosts display and run the app natively — not through an emulated TTY. No `xter
 
 | What | Where |
 | --- | --- |
-| **Build a terminal app** | [`SwiftTUI/swift-tui`](https://github.com/SwiftTUI/swift-tui) |
+| **Primary repo**: build a terminal app | [`SwiftTUI/swift-tui`](https://github.com/SwiftTUI/swift-tui) |
 | **Run the web demo, read the intro** | <https://swifttui.sh> |
 | **Quick-start**: the Counter App demo | [`SwiftTUI/swift-tui-counter-demo`](https://github.com/SwiftTUI/swift-tui-counter-demo) |
 | &nbsp; | &nbsp; |
