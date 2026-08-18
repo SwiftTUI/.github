@@ -3,8 +3,8 @@
 **Views, State, Observation, Gestures, and Animations: SwiftUI semantics, drawn in terminal cells.**
 
 ![Swift 6.3](https://img.shields.io/badge/Swift-6.3-F05138?logo=swift&logoColor=white)
-![Platforms](https://img.shields.io/badge/platforms-macOS%20·%20Linux%20·%20iOS%20·%20WASI%20·%20Android-1E90FF)
-![Status](https://img.shields.io/badge/beta-0.9.1-DAA520)
+![Platforms](https://img.shields.io/badge/platforms-macOS%20·%20Linux%20·%20Windows%20·%20iOS%20·%20WASI%20·%20Android-1E90FF)
+![Status](https://img.shields.io/badge/beta-0.9.2-DAA520)
 
 TUI toolkits make you choose between a low-level draw loop and a widget
 set with its own novel state story.  
