@@ -3,20 +3,24 @@
 **Views, State, Observation, Gestures, and Animations: SwiftUI semantics, drawn in terminal cells.**
 
 ![Swift 6.3](https://img.shields.io/badge/Swift-6.3-F05138?logo=swift&logoColor=white)
-![Status](https://img.shields.io/badge/beta-0.9.7-DAA520)
-![License](https://img.shields.io/badge/license-MIT-3DA639)
+![Platforms](https://img.shields.io/badge/platforms-macOS%20·%20Linux%20·%20Windows%20·%20iOS%20·%20WASI%20·%20Android-1E90FF)
+![Status](https://img.shields.io/badge/beta-0.9.8-DAA520)
 
-TUI toolkits make you choose between a low-level draw loop and a widget set
-with its own novel state story. SwiftTUI instead takes the declarative model
-SwiftUI has proven — interface is a function of state — and aims it at terminal
-cells. You declare views; the framework owns layout, focus, redraw, and the
-terminal itself. The result is one fast native binary for macOS, Linux, and
-Windows.
+TUI toolkits make you choose between a low-level draw loop and a widget
+set with its own novel state story.  
+SwiftTUI instead take the declarative model SwiftUI has proven — that interface is a function of
+state — and aims it at terminal cells. You declare views; the framework owns
+layout, focus, redraw, and the terminal itself.
 
-[<img width="545" height="321" alt="counter-demo" src="https://github.com/user-attachments/assets/15cd2cb5-e907-4456-b699-2906dc3682b1" />](https://swifttui.sh/webexample/)
+Under the hood, every frame is lowered through a strict, inspectable pipeline
+(`resolve → measure → place → semantics → draw → raster → commit`), with no
+global solver, virtual DOM, or `curses`. Layout is deterministic and every
+frame is snapshot-testable.
 
-A real SwiftTUI app, compiled to WebAssembly and
-[running live in your browser](https://swifttui.sh/webexample/).
+**Terminal first, not terminal only.** When you need it, the same authored
+`App` (same view tree, same `@State`, same `@FocusState`, etc.) compiles for
+the browser as a static WASI bundle, for native macOS and iOS windows, and for Android.  
+Hosts display and run the app natively — not through an emulated TTY. No `xterm.js`, no `libghostty`, etc.
 
 ## Project index
 
@@ -37,23 +41,22 @@ A real SwiftTUI app, compiled to WebAssembly and
 
 - **State in, screen out.** Views are a pure function of your app's state:
   change a value and the runtime recomputes layout and rewrites exactly the
-  cells that changed. No draw loop, no buffer diffing, no repaint bookkeeping.
+  cells that changed.
+- **Useful components, focus based navigation.** Buttons, text fields, pickers, sliders,
+  scroll views, and charts, with a focus engine, tab traversal, keyboard
+  chords. You compose behavior instead of hand-routing key events to widgets.
+- **Make the terminal dance** Advanced functionality is ported from SwiftUI. Tap · drag · hover gestures,
+  animations and transitions, images, and even mesh gradients, all behave like in SwiftUI.
 - **The terminal, negotiated for you.** Truecolor, Kitty and Sixel images,
   OSC 8 hyperlinks, and mouse reporting are probed per session and degrade
-  gracefully: one binary is correct in kitty, a bare SSH session, or CI. Every
-  app also ships `--accessible`, `--cursor-follows-focus`, `--reduce-motion`,
-  `--no-color`, and `--ascii`. You write views, not escape codes.
-- **One compiled binary, testable without a TTY.** Swift 6 compiles your
-  interface into a single executable with checked concurrency, and tests
-  render and compare integer-cell frames with no terminal attached.
-
-**Terminal first, not terminal only.** The same authored `App` also runs in the
-browser, in native macOS and iOS windows, and on Android (arm64 preview) —
-natively, not through a terminal emulator.
-
-Under the hood, every frame is lowered through a strict, inspectable render
-pipeline — the walkthrough is at
-[swifttui.sh/pipeline](https://swifttui.sh/pipeline/).
+  gracefully; one binary is correct in kitty, a bare SSH session, or CI. You
+  write views, not escape codes.
+- **Developer ergonomics** Your app compiles into a single fast executable with checked
+  concurrency. Layout and state are type-checked at build time, and tests render frames
+  as integer-cell rasters without a TTY.
+- **Batteries included, accessible by default.** Default builds provide accessibility
+  flags `--reduced-motion`, `--cursor-follows-focus`, and even `--web` for a browser view.
+  Terminal conveniences like `--no-color`, and `--ascii` are similarly bundled.
 
 ## Build with us
 
