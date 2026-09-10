@@ -42,9 +42,11 @@ Hosts display and run the app natively — not through an emulated TTY. No `xter
 - **State in, screen out.** Views are a pure function of your app's state:
   change a value and the runtime recomputes layout and rewrites exactly the
   cells that changed.
-- **Useful components, focus based navigation.** Buttons, text fields, pickers, sliders,
+- **Useful components, focus based navigation, open styles.** Buttons, text fields, pickers, sliders,
   scroll views, and charts, with a focus engine, tab traversal, keyboard
   chords. You compose behavior instead of hand-routing key events to widgets.
+  Every one of the 28 control and presentation families is an open style
+  protocol, so one modifier restyles a control, a subtree, or the whole app.
 - **Make the terminal dance** Advanced functionality is ported from SwiftUI. Tap · drag · hover gestures,
   animations and transitions, images, and even mesh gradients, all behave like in SwiftUI.
 - **The terminal, negotiated for you.** Truecolor, Kitty and Sixel images,
