@@ -4,7 +4,7 @@
 
 ![Swift 6.3](https://img.shields.io/badge/Swift-6.3-F05138?logo=swift&logoColor=white)
 ![Platforms](https://img.shields.io/badge/platforms-macOS%20·%20Linux%20·%20Windows%20·%20WASI%20-1E90FF)
-![Status](https://img.shields.io/badge/beta-0.12.1-DAA520)
+![Status](https://img.shields.io/badge/beta-0.13.0-DAA520)
 
 TUI toolkits make you choose between a low-level draw loop and a widget
 set with its own novel state story.  
@@ -36,6 +36,7 @@ Hosts display and run the app natively — not through an emulated TTY. No `xter
 | **Embed in SwiftUI** (macOS · iOS) | [`SwiftTUI/swift-tui-swiftui`](https://github.com/SwiftTUI/swift-tui-swiftui) |
 | **Embed in Android** | [`SwiftTUI/swift-tui-android`](https://github.com/SwiftTUI/swift-tui-android) |
 | **Add charts & dashboards** | [`SwiftTUI/swift-tui-charts`](https://github.com/SwiftTUI/swift-tui-charts) |
+| **Embed terminal programs** | [`SwiftTUI/swift-tui-terminal-view`](https://github.com/SwiftTUI/swift-tui-terminal-view) |
 
 ## Why SwiftTUI
 
