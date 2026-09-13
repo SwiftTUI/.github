@@ -4,11 +4,11 @@
 
 ![Swift 6.3](https://img.shields.io/badge/Swift-6.3-F05138?logo=swift&logoColor=white)
 ![Platforms](https://img.shields.io/badge/platforms-macOS%20·%20Linux%20·%20Windows%20·%20WASI%20-1E90FF)
-![Status](https://img.shields.io/badge/beta-0.13.2-DAA520)
+![Status](https://img.shields.io/badge/status-beta-DAA520)
 
 TUI toolkits make you choose between a low-level draw loop and a widget
 set with its own novel state story.  
-SwiftTUI instead take the declarative model SwiftUI has proven — that interface is a function of
+SwiftTUI takes the declarative model SwiftUI has proven — that interface is a function of
 state — and aims it at terminal cells. You declare views; the framework owns
 layout, focus, redraw, and the terminal itself.
 
@@ -48,8 +48,12 @@ Hosts display and run the app natively — not through an emulated TTY. No `xter
   chords. You compose behavior instead of hand-routing key events to widgets.
   Every one of the 28 control and presentation families is an open style
   protocol, so one modifier restyles a control, a subtree, or the whole app.
-- **Make the terminal dance** Advanced functionality is ported from SwiftUI. Tap · drag · hover gestures,
-  animations and transitions, images, and even mesh gradients, all behave like in SwiftUI.
+- **Drawing and motion.** Compose arcs, shape clips, compatible path morphs,
+  layered images, and finite GIF playback. Animate state, numeric text, and
+  matched geometry on the terminal grid, with reduced-motion support.
+- **Scrolling workspaces.** Combine lazy sections and multiple data sources,
+  nest scroll panes, and retain authored state across tab switches. Lists and
+  tables provide selection, tall rows, and embedded controls.
 - **The terminal, negotiated for you.** Truecolor, Kitty and Sixel images,
   OSC 8 hyperlinks, and mouse reporting are probed per session and degrade
   gracefully; one binary is correct in kitty, a bare SSH session, or CI. You
@@ -58,10 +62,14 @@ Hosts display and run the app natively — not through an emulated TTY. No `xter
   concurrency. Layout and state are type-checked at build time, and tests render frames
   as integer-cell rasters without a TTY.
 - **Batteries included, accessible by default.** Default builds provide accessibility
-  flags `--reduced-motion`, `--cursor-follows-focus`, and even `--web` for a browser view.
+  flags `--reduce-motion`, `--cursor-follows-focus`, and even `--web` for a browser view.
   Terminal conveniences like `--no-color`, and `--ascii` are similarly bundled.
 
 ## Build with us
+
+Explore [what you can build](https://swifttui.sh/capabilities/) and the
+[task-oriented guides](https://swifttui.sh/guides/), including adapting a shared
+interface to keyboard and touch input.
 
 Development happens on GitHub and [Discord](https://discord.gg/8j35kYDFxn).
 Come ask questions, show what you are building, or talk through a contribution.
