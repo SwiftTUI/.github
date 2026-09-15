@@ -2,7 +2,7 @@
 
 **Views, State, Observation, Gestures, and Animations: SwiftUI semantics, drawn in terminal cells.**
 
-![Swift 6.3](https://img.shields.io/badge/Swift-6.3-F05138?logo=swift&logoColor=white)
+![Swift 6.4](https://img.shields.io/badge/Swift-6.4-F05138?logo=swift&logoColor=white)
 ![Platforms](https://img.shields.io/badge/platforms-macOS%20·%20Linux%20·%20Windows%20·%20WASI%20-1E90FF)
 ![Status](https://img.shields.io/badge/status-beta-DAA520)
 
