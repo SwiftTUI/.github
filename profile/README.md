@@ -4,7 +4,7 @@
 
 ![Swift 6.4](https://img.shields.io/badge/Swift-6.4-F05138?logo=swift&logoColor=white)
 ![Platforms](https://img.shields.io/badge/platforms-macOS%20·%20Linux%20·%20Windows%20·%20WASI%20-1E90FF)
-![Status](https://img.shields.io/badge/status-beta-DAA520)
+![Status](https://img.shields.io/badge/status-0.16.0%20beta-DAA520)
 
 TUI toolkits make you choose between a low-level draw loop and a widget
 set with its own novel state story.  
